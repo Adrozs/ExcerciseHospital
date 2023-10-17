@@ -20,9 +20,9 @@ namespace ExcerciseHospital
 
 
 
-        public void WritePrescription()
+        public void WritePrescription(Patient patient)
         {
-            Console.WriteLine($"{Name} writes a prescription.");
+            Console.WriteLine($"{Profession} {Name} writes a prescription for {patient.Name} and their {patient.Diagnosis}.");
         }
 
         public override void PrintInfo()

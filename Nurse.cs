@@ -18,9 +18,9 @@ namespace ExcerciseHospital
         }
 
 
-        public void TakeBloodTest()
+        public void TakeBloodTest(Patient patient)
         {
-            Console.WriteLine($"{Name} took a blood sample");
+            Console.WriteLine($"{Name} took a blood sample from {patient.Name}.");
         }
 
         public override void PrintInfo()

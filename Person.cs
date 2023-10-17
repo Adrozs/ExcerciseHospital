@@ -14,7 +14,7 @@ namespace ExcerciseHospital
 
 
 
-       public abstract void PrintInfo();
+        public abstract void PrintInfo();
 
     }
 }
