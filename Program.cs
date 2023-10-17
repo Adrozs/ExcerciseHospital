@@ -19,6 +19,13 @@ namespace ExcercieHospital
             Patient patient5 = new Patient("Fredrik", "Ligma");
 
 
+            doctor1.WritePrescription(patient5);
+            nurse1.TakeBloodTest(patient3);
+            nurse2.TakeBloodTest(patient1);
+
+            Console.WriteLine();
+
+
             List<Person> people = new List<Person> 
             {doctor1, nurse1, nurse2, patient1, patient2, patient3, patient4, patient5 };
 
@@ -26,6 +33,7 @@ namespace ExcercieHospital
             foreach (Person person in people )
             {
                 person.PrintInfo();
+                Console.WriteLine();
             }
 
 
